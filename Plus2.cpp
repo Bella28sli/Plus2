@@ -90,14 +90,14 @@ int main()
             {
                 cout << "1";
             }
-            if (num1 < 0)
+            else if (num1 < 0)
             {
                 cout << "Введите натуральное число\n";
             }
             else
             {
 
-                for (int i = 1; i <= num1; i++)
+                for (int i = 1; i <= floor(num1); i++)
                 {
                     num2 = i * num2;
                 }
